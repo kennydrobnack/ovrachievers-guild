@@ -12,7 +12,6 @@ title_separator          : "-"
 name                     : ""
 description              : "A Pillar Guild"
 url                      : "http://pillartechnology.github.io/ovrachievers-guild/"
-baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "PillarTechnology/ovrachievers-guild"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
