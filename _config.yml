@@ -11,7 +11,7 @@ title                    : "OVR-Achievers"
 title_separator          : "-"
 name                     : ""
 description              : "A Pillar Guild"
-url                      : "https://ovrachievers.guilds.pillartechnology.com"
+url                      : "http://pillartechnology.github.io/ovrachievers-guild/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "PillarTechnology/ovrachievers-guild"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
@@ -30,7 +30,7 @@ comments:
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "master"
+  branch                 : "gh-pages"
   commitMessage          : "New comment."
   filename               : comment-{@timestamp}
   format                 : "yml"
