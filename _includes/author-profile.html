@@ -1,5 +1,5 @@
-{% if page.author and site.data.authors[page.author] %}
-  {% assign author = site.data.authors[page.author] %}
+{% if page.author and site.people[page.author] %}
+  {% assign author = site.people[page.author] %}
 {% else %}
   {% assign author = site.author %}
 {% endif %}

@@ -3,3 +3,14 @@ layout: archive
 author_profile: true
 author: mholtman
 ---
+
+{% for person in site.people %}
+  <h2>{{ person.name }}</h2>
+  {% if person.twitter %}
+    <p>
+      <a href="https://twitter.com/{{ person.twitter }}" itemprop="sameAs">
+        <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+      </a>
+    </p>
+  {% endif %}
+{% endfor %}
