@@ -247,3 +247,4 @@ defaults:
 # Collections
 collections:
   people:
+    output: true

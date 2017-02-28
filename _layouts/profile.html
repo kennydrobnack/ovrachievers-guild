@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div id="main" role="main">
+  {% include people.html %}
+
+  <div class="archive">
+    <h3 class="author__name">{{ page.name }}</h3>
+    {% if page.twitter %}
+      <p>
+        <a href="https://twitter.com/{{ page.twitter }}" itemprop="sameAs">
+          <i class="fa fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+        </a>
+      </p>
+    {% endif %}
+
+{{ content }}
+  </div>
+</div>

@@ -1,0 +1,11 @@
+<div class="sidebar">
+<nav>
+  <ul>
+  {% assign persons = site.people | sort: 'name' %}
+  {% for person in persons %}
+    <li><a href={{person.url}}>{{ person.name }}</a></li>
+
+  {% endfor %}
+</ul>
+</nav>
+</div>
