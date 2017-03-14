@@ -13,7 +13,13 @@ layout: default
         </a>
       </p>
     {% endif %}
-
+    {% if page.linkedin %}
+      <p>
+        <a href="https://www.linkedin.com/in/{{ page.linkedin }}" itemprop="sameAs">
+          <i class="fa fa-fw fa-linkedin-square" aria-hidden="true"></i> LinkedIn
+        </a>
+      </p>
+    {% endif %}
 {{ content }}
   </div>
 </div>
